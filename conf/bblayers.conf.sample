@@ -1,0 +1,20 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-poky \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-openembedded/meta-oe \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-openembedded/meta-multimedia \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-openembedded/meta-networking \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-openembedded/meta-perl \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-openembedded/meta-python \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-qt5 \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-raspberrypi \
+    /media/jennifer/LinDrive/tdde21/rpi/meta-rpi \
+    /media/jennifer/LinDrive/tdde21/poky-warrior/meta-tdde21 \
+"
