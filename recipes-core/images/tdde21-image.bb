@@ -54,6 +54,8 @@ DEV_SDK_INSTALL = " \
     make \
     pkgconfig \
     python3-modules \
+    python3-pip \
+    opencv \
     strace \
 "
 
